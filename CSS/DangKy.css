@@ -1,0 +1,92 @@
+body{
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.official{
+    width:600px ;
+    height: 500px;
+    background-image: url(../image/body.jpg);
+    background-size: 600px 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.dear{
+    width: 600px;
+    height: 500px;
+    background-color: #202931d9;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.label{
+    margin-top: 35px;
+    border-bottom: 2px solid white;
+}
+.input{
+    border: none;
+    outline: none;
+    background-color:#202931d9 ;
+    color: white;
+    width: 230px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.submit{
+    margin-top: 20px;
+    width: 230px;
+    height: 30px;
+    border-radius: 2rem;
+    font-size: 18px;
+}
+.note{
+margin-top: 35px;
+    color: white;
+}
+.icon{
+    display: flex;
+    margin-top: 50px;
+}
+.icon-fb{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.color{
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin: 7.85px;
+}
+.icon-tw{
+    width: 30px;
+    height: 30px;
+    background-color: #1298f6;
+    border-radius: 100%;
+    margin-right: 10px;
+
+}
+.icon-gg{
+    width: 30px;
+    height: 30px;
+    background-color: #ea4335;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.color{
+    color: white;
+}
