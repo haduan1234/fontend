@@ -1,0 +1,55 @@
+.image{
+    width: 100px;
+    height: 80px;
+    border-radius: 100%;
+}
+.container{
+    
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 500px;
+    height: 30px;
+    outline: none;
+    padding-left: 5px;
+
+}
+.search{
+    position: relative;
+}
+.icon_search{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0px 11px;
+    background-color: chocolate;
+}
+.color_icon{
+color: white;
+}
+.icon{
+    display: flex;
+}
+
+.icon_cart{
+    font-size: 20px;
+    margin-right: 20px ;
+}
+.icon_account{
+    font-size: 20px;
+}
