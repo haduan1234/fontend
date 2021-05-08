@@ -24,7 +24,7 @@ h2{
     flex-direction: column;
     border-radius: 5px;
     position: relative;
-    box-shadow: 5px 10px white ;
+    
 }
 .mosty{
 margin-top: 10px;
@@ -50,9 +50,7 @@ p{
     margin-top: 5px;
    font-size: 13px;
 }
-.login{
-    margin-top: 20px;
-}
+
 .submit{
     width: 225px;
     height: 30px;
@@ -64,7 +62,7 @@ p{
     border-radius: 2rem;
     border: none;
     color: white    ;
-
+    cursor: pointer;
 }
 .Sign{
     position: absolute;
@@ -76,7 +74,7 @@ p{
 }
 .icon{
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .icon-fb{
     width: 30px;
@@ -84,12 +82,15 @@ p{
     background-color: blue;
     border-radius: 100%;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .color{
     flex-direction: column;
     color: white;
     text-align: center;
-    margin: 7.85px;
+   
 }
 .icon-tw{
     width: 30px;
@@ -97,6 +98,9 @@ p{
     background-color: #1298f6;
     border-radius: 100%;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .icon-gg{
@@ -105,7 +109,13 @@ p{
     background-color: #ea4335;
     border-radius: 100%;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .mosty__icon{
     color: #757575;
+}
+.error{
+    color:  red;
 }

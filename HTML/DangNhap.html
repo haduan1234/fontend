@@ -15,20 +15,23 @@
         <div class="label">Username <br>
             <div class="mosty">
                 <i class="fas fa-user mosty__icon"></i>
-                <input class="input" type="text" placeholder="Type your username">
+                <input id="username" class="input" type="text" placeholder="Type your username" onkeyup="checkValiDateUserName()">
             </div>
+            <div class="error" id="error_UserName"></div>
         </div>
+        
         <div class="label">Password <br>
             <div class="mosty">
                 <i class="fas fa-lock mosty__icon"></i>
-                <input type="password" class="input" placeholder="Type your password">
+                <input type="password" id="password" class="input" placeholder="Type your password" onkeyup ="checkValiDatePassword()" >
             </div>
-        
+            <div class="error" id="error_password"></div>
+
         <div class="forgot">
             <p>Forgot password?</p>
         </div></div>
         <div class="login">
-            <button class="submit" type="submit">
+            <button class="submit" type="submit" onclick="login()">
                 LOGIN
             </button>
         </div>
@@ -44,11 +47,13 @@
             </div>
         </div>
         <div class="Sign">
-            <a class="sing-up">SING UP</a>
+            <a href="./DangKy.html" class="sing-up">SING UP</a>
         </div>
 
     </div>
 
 </body>
-
+<script src="../js/DangNhap.js">
+    
+</script>
 </html>
