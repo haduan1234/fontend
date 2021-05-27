@@ -1,0 +1,20 @@
+{
+  "name": "fontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haduan1234/fontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haduan1234/fontend/issues"
+  },
+  "homepage": "https://github.com/haduan1234/fontend#readme"
+}
