@@ -38,25 +38,25 @@ function checkValidateUserName() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     var confirm = document.getElementById("confirm").value;
-    var isValiDate = false;
+    var isValidate = false;
     if (userName.trim() == "") {
-      isValiDate = true;
+      isValidate = true;
       document.getElementById("error_username").innerHTML =
         "user name khong duoc de trong";
       // document.getElementById("error_username").className = "error"
     }
     if (email.trim() == "") {
-      isValiDate = true;
+      isValidate = true;
       document.getElementById("error_email").innerHTML =
         " email khong duoc de trong";
     }
     if (password.trim() == "") {
-      isValiDate = true;
+      isValidate = true;
       document.getElementById("error_password").innerHTML =
         "password khong duoc de trong ";
     }
     if (password.length < 6) {
-      isValiDate = true;
+      isValidate = true;
       if (password.trim() == "") {
         document.getElementById("error_password").innerHTML =
           "password khong duoc de trong ";
@@ -67,25 +67,14 @@ function checkValidateUserName() {
      
     }
     if (confirm != password) {
-      isValiDate = true;
+      isValidate = true;
       document.getElementById("error_confirm").innerHTML =
         "password khong giong nhau";
     }
-    if (isValiDate == true) {
+    if (isValidate == true) {
       return;
     }
 
-    // if(userName.trim() =="" || email.trim() =="" || password.trim() =="" || confirm.trim() == ""){
-    //     console.log("dien du thong tin")
-    //     return;
-
-    // }
-    // if(password.length<6 ){
-    //     console.log("mat khau lon hon 6 ki tu")
-    //     return;
-    // }
-    // if(confirm!=password){
-    //     console.log("mat khau khong trung khop")
-    //     return;
-    // }
+    alert("Dang ky thanh cong ")
+  
   }
